@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Web Server</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; color: #263238; background: #f5f7fa; }
+        main { max-width: 720px; margin: 10vh auto; padding: 24px; }
+        h1 { color: #1976d2; }
+        code { padding: 3px 6px; background: #e9eef5; border-radius: 3px; }
+        li { margin: 14px 0; }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Demo Web Server</h1>
+    <p>Учебный сервер регистрации пользователей.</p>
+    <h2>Доступные ручки</h2>
+    <ul>
+        <li><code>GET /api/users</code> — получить список зарегистрированных пользователей.</li>
+        <li><code>POST /api/register</code> — зарегистрировать пользователя. Тело JSON: <code>name</code>, <code>email</code>, <code>phone</code>.</li>
+    </ul>
+</main>
+</body>
+</html>
